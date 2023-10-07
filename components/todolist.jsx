@@ -7,7 +7,7 @@ export default function ToDoList( ) {
      
     return (
           <div style={{color:'black',marginLeft:'30%', marginTop:'3%'}}>
-                <h1 class="marginLeft:auto"> to-do list</h1> 
+                <h1 class="marginLeft:auto"> 2-do list</h1> 
          <input style={{width: '400px',padding: '10px',border: '1px solid #ccc',borderradius: '4px',boxsizing:' border-box'}}
             value={todo}
             placeholder={"Enter task"}
