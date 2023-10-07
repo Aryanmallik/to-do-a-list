@@ -6,14 +6,15 @@ export default function ToDoList( ) {
           [list, setList] = React.useState([]);
      
     return (
-          <>
-         <input
+          <div style={{color:'black',marginLeft:'30%', marginTop:'15%'}}>
+                <h1 class="marginLeft:auto"> to-do list</h1> 
+         <input style={{width: '400px',padding: '10px',border: '1px solid #ccc',borderradius: '4px',boxsizing:' border-box'}}
             value={todo}
             placeholder={"Enter task"}
             onInput={(evt) => setTodo( evt.target.value )}
             />
-          <button
-            onClick={() => {
+          <button style={{padding: '10px 20px',backgroundColor: '#007BFF',color: '#fff',border: 'none',borderradius: '5px',cursor: 'pointer', margin:10}}
+          onClick={() => {
               const nextId = list.length + 1;
               if (list.filter((v) => v.value == todo).length == 0) {
                   list.push({ value: todo, id: nextId,completed:"" });
@@ -24,7 +25,7 @@ export default function ToDoList( ) {
             >
             add
           </button>
-          <button
+          <button style={{padding: '10px 20px',backgroundColor: '#007BFF',color: '#fff',border: 'none',borderradius: '5px',cursor: 'pointer', margin:10}}
             onClick={() => {
                  let tlist=list.filter((v)=>v.completed!="completed");
                  tlist.map((v) => { const i = tlist.indexOf(v); tlist[i].id = i + 1;});
@@ -55,7 +56,7 @@ export default function ToDoList( ) {
                  </tr>
               ))}
             </table>
-        </>
+        </div>
         );
     }
   
