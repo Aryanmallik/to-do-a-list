@@ -3,7 +3,7 @@ export default function Header()
 {
     return <header style={{backgroundColor:'pink',padding:10}}>
         <nav>
-            <ul style={{color:'black'}}>
+            <ul>
                 <li><Link href="/">Home</Link></li>
                 <li><Link href="/about">About</Link></li>
             </ul>
