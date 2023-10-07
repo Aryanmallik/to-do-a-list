@@ -1,45 +1,53 @@
-.button {
-    margin-left: 20px;
-  }
-  .big {
-    font-size: xx-large;
-  }
-  .bordered {
-    outline: 3px solid skyblue;
-  }
-  label {
-    top: -1px;
-    vertical-align: bottom;
-  }
-  input[type="checkbox"] {
-    transform: scale(1.2);
-    background-color: red;
-    vertical-align: bottom;
-    
-  }
-  
-  label.completed {
-    text-decoration: line-through;
-  }
-  
-  button.close {
-    height: 15px;
-    vertical-align: bottom;
-    box-sizing: content-box;
-  }
-  fieldset {
-    display: inline;
-  }
-  
-  header ul{
-    display: flex;  
-    list-style-type: none;
-  }
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
 
-  header ul li{
-    padding-right: 20px;
-  }
+#weather-container {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
 
-  body{
-    background-color: aquamarine;
-  }
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#weather-info {
+    margin-top: 20px;
+}
+
+body{
+    background-image: url('./download.gif'); 
+    background-size:  cover;                
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-color: rgba(224, 215, 215, 0.9);
+}
+h1{
+    color: #007BFF;
+}
+
+#weather-info{
+    color: aliceblue;
+}
