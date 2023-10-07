@@ -4,9 +4,9 @@ import Header from "../components/header";
 
 export default function App({ Component, pageProps }) {
     
-    return <bod style={{backgroundColor:"lightblue"}}>
+    return <>
      <Header/>
      <Component {...pageProps} />
-       </bod> ;
+       </> ;
 
 }
