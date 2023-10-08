@@ -14,7 +14,7 @@
               onInput={(evt) => setTodo( evt.target.value )}
               />
            <div id="buttons">
-            <button style={{padding: '10px 20px',backgroundColor: '#007BFF',color: '#fff',border: 'none',borderradius: '5px',cursor: 'pointer', margin:10}}
+            <button id="add"
             onClick={() => {
                 const nextId = list.length + 1;
                 if (list.filter((v) => v.value == todo).length == 0) {
@@ -26,7 +26,7 @@
               >
               add
             </button>
-            <button style={{padding: '10px 20px',backgroundColor: '#007BFF',color: '#fff',border: 'none',borderradius: '5px',cursor: 'pointer', margin:10}}
+            <button id="del" 
               onClick={() => {
                   let tlist=list.filter((v)=>v.completed!="completed");
                   tlist.map((v) => { const i = tlist.indexOf(v); tlist[i].id = i + 1;});
