@@ -41,13 +41,12 @@
     }
 @media (max-width: 768px) {
   body{
-    background-image: url('../Public/Screenshot\ 2023-10-08\ 212516.png'); 
+    background-image: url('../Public/Screenshot\ 2023-10-08\ 213440.png'); 
     background-size:  cover;                
     background-repeat: no-repeat; 
     background-attachment: fixed; 
     
   }}
-
 @media (min-width: 769px) {
   body{
     background-image: url('../Public/pexels-content-pixie-2736499\ \(1\).jpg'); 
