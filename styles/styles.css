@@ -46,13 +46,40 @@
     background-repeat: no-repeat; 
     background-attachment: fixed; 
     
+    #list{
+      color:black;
+      margin-top:3%
+    }
+       
+      #todo{
+        width: 30%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing:border-box
+      }
   }}
+
 @media (min-width: 769px) {
   body{
     background-image: url('../Public/pexels-content-pixie-2736499\ \(1\).jpg'); 
     background-size:  cover;                
     background-repeat: no-repeat; 
-    background-attachment: fixed; 
-    
-  }}
+    background-attachment: fixed; }
 
+    #list{
+      color:black;
+      margin-left:30%;
+      margin-top:3%
+      }
+       
+       #todo{
+        width: 30%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing:border-box
+          }
+       
+      }
+      
