@@ -1,7 +1,7 @@
     import Link from 'next/link';
     export default function Header()
     {
-        return <header style={{padding:10, marginLeft:'42%'}}>
+        return <header id="navi">
             <nav>
                 <ul style={{fontSize:20, fontFamily:'monospace'}}>
                     <li><Link style={{color:'black'}} href="/">Home</Link></li>
