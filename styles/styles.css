@@ -58,6 +58,9 @@
         border-radius: 4px;
         box-sizing:border-box
       }
+      #buttons{
+        display: inline-block;
+      }
   }}
 
 @media (min-width: 769px) {
@@ -79,6 +82,9 @@
         border: 1px solid #ccc;
         border-radius: 4px;
         box-sizing:border-box
+          }
+          #buttons{
+            display: inline-block;
           }
        
       }
