@@ -7,6 +7,6 @@ export default function AboutPage()
       }}>
     <p>woof</p>
     <p>built by -</p>
-    <p><a href="https://www.instagram.com/aryanmallikk/">Aryan </a>and</p>
+    <p><a href="https://www.instagram.com/aryanmallikk/">Aryan </a>and <a href="https://www.instagram.com/anishlol797/">Anish</a></p>
     </div>
 }
