@@ -17,12 +17,18 @@
             <button id="add"
             onClick={() => {
                 const nextId = list.length + 1;
+                if( todo!=''){
                 if (list.filter((v) => v.value == todo).length == 0) {
                     list.push({ value: todo, id: nextId,completed:"" });
                     setList(list);
                     setTodo("");
-                } else alert("value already exists");
-              }}
+                    
+                }
+                 else alert("value already exists");
+              }
+              else alert("Please enter a value");
+            }
+            } 
               >
               add
             </button>
